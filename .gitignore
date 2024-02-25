@@ -1,0 +1,8 @@
+composer.phar
+/vendor/
+.env
+/tests/WACloudApiTestConfiguration.php
+.phpunit.result.cache
+composer.lock
+.php-cs-fixer.cache
+.idea/
