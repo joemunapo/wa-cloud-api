@@ -375,7 +375,7 @@ fwrite(STDOUT, print_r($webhook->read(json_decode($payload, true)), true) . "\n"
 fwrite(STDOUT, print_r($webhook->readAll(json_decode($payload, true)), true) . "\n");
 ```
 
-The `Webhook::read` function will return a `Notification` instance. Please, [explore](https://github.com/joemags-app/wa-cloud-api/tree/main/src/WebHook/Notification "explore") the different notifications availables.
+The `Webhook::read` function will return a `Notification` instance. Please, [explore](https://github.com/joemags-apps/wa-cloud-api/tree/main/src/WebHook/Notification "explore") the different notifications availables.
 
 ### Mark a message as read
 
